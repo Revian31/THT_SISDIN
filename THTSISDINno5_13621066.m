@@ -31,7 +31,6 @@ tspan1 = 0:0.01:50;  % Adjust the time span as needed
 x_analytic = -0.04061*cos(1.80277*tspan1) + 0.01996*sin(1.80277*tspan1) + 0.04061*exp(-11*tspan1/2).*cosh(4.15331*tspan1) + 0.04511*exp(-11*tspan1/2).*cosh(4.15331*tspan1);
 
 % Plot the time response
-% Plot the time response
 plot(t, x, 'r','LineWidth', 1.5);
 hold on
 plot(tspan1, x_analytic,'b','LineWidth', 1.5);
